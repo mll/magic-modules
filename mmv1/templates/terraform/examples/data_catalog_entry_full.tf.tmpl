@@ -8,6 +8,7 @@ resource "google_data_catalog_entry" "{{$.PrimaryResourceId}}" {
 
   display_name = "my custom type entry"
   description  = "a custom type entry for a user specified system"
+  transferredToDataplex = false
 
   schema = <<EOF
 {
